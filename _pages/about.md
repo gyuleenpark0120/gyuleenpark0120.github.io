@@ -2,17 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. in Chemical and Biological Engineering
+subtitle:
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-size:0.70rem; max-width:160px; margin:0; text-align:center; word-wrap:break-word;">
+    <p style="font-size:0.70rem; margin:0; text-align:center;">
     <em>Eiffel Tower, Paris, France, 2026</em>
     </p>
-    </paste>
 
 selected_papers: False # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

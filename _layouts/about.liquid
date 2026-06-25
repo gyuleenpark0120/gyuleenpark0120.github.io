@@ -16,17 +16,15 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      {% capture profile_html %}
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
@@ -35,10 +33,22 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
-      </div>
-    {% endif %}
+      {% endcapture %}
 
-    <div class="clearfix">{{ content }}</div>
+      {% if page.profile.align == 'left' %}
+        <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+          <div style="flex: 1; min-width: 250px;">{{ content }}</div>
+          <div class="profile float-left" style="flex-shrink: 0;">{{ profile_html }}</div>
+        </div>
+      {% else %}
+        <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+          <div class="profile float-right" style="flex-shrink: 0;">{{ profile_html }}</div>
+          <div style="flex: 1; min-width: 250px;">{{ content }}</div>
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="clearfix">{{ content }}</div>
+    {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

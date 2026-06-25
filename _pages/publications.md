@@ -18,7 +18,7 @@ nav_order: 2
 <h2>First-author publications</h2>
 {% bibliography --group_by none --query @*[first_author=true]* --cited_in_order %}
 
-<h2>Other publications</h2>
-{% bibliography --group_by none --query @*[coauthor!=true]* --cited_in_order %}
+<h2>Co-author publications</h2>
+{% bibliography --group_by none --query @*[coauthor=true]* --cited_in_order %}
 
 </div>
