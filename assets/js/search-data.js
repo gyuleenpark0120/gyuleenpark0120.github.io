@@ -490,7 +490,7 @@ ninja.data = [{
         title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.linkedin.com/in/Gyuleen Park", "_blank");
+          window.open("https://www.linkedin.com/in/gyuleen-park-0ba2a522a", "_blank");
         },
       },{
         id: 'social-scholar',
