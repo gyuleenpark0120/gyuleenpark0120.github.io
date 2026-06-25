@@ -6,10 +6,10 @@ subtitle: Ph.D. in Chemical and Biological Engineering
 
 profile:
   align: right
-  image: prof_pic.jpeg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-size:0.85rem; max-width:160px; margin:0; text-align:center; word-wrap:break-word;">
+    <p style="font-size:0.70rem; max-width:160px; margin:0; text-align:center; word-wrap:break-word;">
     <em>Eiffel Tower, Paris, France, 2026</em>
     </p>
     </paste>
