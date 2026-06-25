@@ -15,6 +15,10 @@ nav_order: 2
 
 <div class="publications">
 
+<h2>Co-author publications</h2>
+{% bibliography --group_by year --query @*[coauthor=true]* %}
+
+<h2>All publications</h2>
 {% bibliography %}
 
 </div>
