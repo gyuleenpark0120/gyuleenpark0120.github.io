@@ -5,11 +5,11 @@ permalink: /
 subtitle:
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p style="font-size:0.70rem; margin:0; text-align:center;">
+    <p style="font-size:0.70rem; margin:0; text-align:center; display:block; width:100%;">
     <em>Eiffel Tower, Paris, France, 2026</em>
     </p>
 
