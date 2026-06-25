@@ -15,10 +15,10 @@ nav_order: 2
 
 <div class="publications">
 
-<h2>Co-author publications</h2>
-{% bibliography --group_by year --query @*[coauthor=true]* %}
+<h2>First-author publications</h2>
+{% bibliography --group_by none --query @*[first_author=true]* --cited_in_order %}
 
-<h2>All publications</h2>
-{% bibliography %}
+<h2>Other publications</h2>
+{% bibliography --group_by none --query @*[coauthor!=true]* --cited_in_order %}
 
 </div>
