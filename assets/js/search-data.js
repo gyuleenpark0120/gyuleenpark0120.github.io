@@ -48,7 +48,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-multi-agent-ai-assistant-for-scientific-r-amp-d",
           title: 'Multi-Agent AI Assistant for Scientific R&amp;amp;D',
-          description: "Architected an LLM-orchestrated multi-agent AI system (Deepspace) for battery and materials R&amp;D, enabling complex expert questions to be decomposed into coordinated workflows for literature retrieval, evidence synthesis, and traceable scientific reasoning. Achieved 6× latency reduction and launched as a core product feature.",
+          description: "Architected an LLM-orchestrated multi-agent AI system (Deepspace) for battery and materials R&amp;D, enabling complex expert questions to be decomposed into coordinated workflows across a scientific literature corpus and a millions-scale molecular properties database (DFT-computed) to accelerate molecule discovery. Achieved 6× latency reduction and launched as a core product feature.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_deepspace/";
             },},{id: "projects-llm-evaluation-framework",
