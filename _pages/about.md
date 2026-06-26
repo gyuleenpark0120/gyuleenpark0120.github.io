@@ -38,7 +38,7 @@ latest_posts:
     <h3 class="timeline-heading"><i class="fa-solid fa-briefcase"></i> Experience</h3>
     <div class="timeline-card tl-animate">
       <span class="tl-date">2024 – Present</span>
-      <div class="tl-title">Senior Scientist, Battery-AI Team</div>
+      <div class="tl-title">Senior Scientist</div>
       <div class="tl-place">LLM Team (Battery-AI)</div>
       <div class="tl-place">SES AI · Woburn, MA, USA</div>
     </div>
@@ -124,7 +124,7 @@ latest_posts:
   </div>
 
   <div class="timeline-section tl-animate">
-    <h3 class="timeline-heading"><i class="fa-solid fa-certificate"></i> Certifications</h3>
+    <h3 class="timeline-heading"><i class="fa-solid fa-award"></i> Certifications</h3>
     <div class="timeline-card tl-animate">
       <span class="tl-date">2025</span>
       <div class="tl-title">Applying Machine Learning to Engineering and Science</div>
