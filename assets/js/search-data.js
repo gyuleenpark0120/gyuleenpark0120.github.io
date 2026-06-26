@@ -46,13 +46,13 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-deepspace-multi-agent-scientific-ai-system",
-          title: 'Deepspace – Multi-Agent Scientific AI System',
-          description: "Architected an LLM-orchestrated multi-agent AI system for battery and materials R&amp;D, enabling complex expert questions to be decomposed into coordinated workflows for literature retrieval, evidence synthesis, and traceable scientific reasoning. Achieved 6× latency reduction and launched as a core product feature.",
+          section: "News",},{id: "projects-multi-agent-scientific-ai-system",
+          title: 'Multi-Agent Scientific AI System',
+          description: "Architected an LLM-orchestrated multi-agent AI system (Deepspace) for battery and materials R&amp;D, enabling complex expert questions to be decomposed into coordinated workflows for literature retrieval, evidence synthesis, and traceable scientific reasoning. Achieved 6× latency reduction and launched as a core product feature.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_deepspace/";
-            },},{id: "projects-llm-evaluation-framework-judge-diagnose-architect",
-          title: 'LLM Evaluation Framework – Judge-Diagnose-Architect',
+            },},{id: "projects-llm-evaluation-framework",
+          title: 'LLM Evaluation Framework',
           description: "Designed and deployed an automated evaluation system for open-ended scientific Q&amp;A, achieving ~82% alignment with expert scores via iterative rubric optimization. Benchmarked frontier and internal LLMs on 2,390 real R&amp;D questions; inter-annotator reliability confirmed at Krippendorff&#39;s α = 0.92.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_evaluation/";
