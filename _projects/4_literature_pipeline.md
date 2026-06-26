@@ -8,6 +8,7 @@ description: >
   deduplication, and metadata validation.
 importance: 4
 category: AI for Scientific Discovery
+institution: SES AI
 tags:
   - RAG Pipelines
   - Corpus Quality Control

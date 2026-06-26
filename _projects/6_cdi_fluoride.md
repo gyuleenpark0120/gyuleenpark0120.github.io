@@ -7,6 +7,7 @@ description: >
   synthesis and surface chemistry design with environmental application constraints.
 importance: 6
 category: Experimental Materials Science
+institution: Seoul National University
 tags:
   - XPS
   - FT-IR

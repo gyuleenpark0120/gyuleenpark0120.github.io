@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "LLM Evaluation Framework – Judge-Diagnose-Architect"
+title: "LLM Evaluation Framework"
 description: >
   Designed and deployed an automated evaluation system for open-ended scientific Q&A,
   achieving ~82% alignment with expert scores via iterative rubric optimization.
@@ -8,6 +8,7 @@ description: >
   inter-annotator reliability confirmed at Krippendorff's α = 0.92.
 importance: 2
 category: AI for Scientific Discovery
+institution: SES AI
 tags:
   - LLM-as-a-Judge
   - Scientific Benchmarking

@@ -8,6 +8,7 @@ description: >
   scale-up from coin cell to pouch cell.
 importance: 5
 category: Experimental Materials Science
+institution: Seoul National University
 tags:
   - Electrolyte Design
   - SEI/CEI Engineering

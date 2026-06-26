@@ -1,13 +1,14 @@
 ---
 layout: page
-title: "Deepspace – Multi-Agent Scientific AI System"
+title: "Multi-Agent Scientific AI System"
 description: >
-  Architected an LLM-orchestrated multi-agent AI system for battery and materials R&D,
+  Architected an LLM-orchestrated multi-agent AI system (Deepspace) for battery and materials R&D,
   enabling complex expert questions to be decomposed into coordinated workflows for
   literature retrieval, evidence synthesis, and traceable scientific reasoning.
   Achieved 6× latency reduction and launched as a core product feature.
 importance: 1
 category: AI for Scientific Discovery
+institution: SES AI
 tags:
   - Multi-Agent Systems
   - LLM API Integration

@@ -30,6 +30,7 @@ nav_order: 2
       {% endif %}
     </div>
     <h3 class="proj-card-title">{{ project.title }}</h3>
+    {% if project.institution %}<div class="proj-institution"><i class="fa-solid fa-building"></i> {{ project.institution }}</div>{% endif %}
     <p class="proj-card-desc">{{ project.description }}</p>
     {% if project.tags %}
     <div class="proj-tags-row">

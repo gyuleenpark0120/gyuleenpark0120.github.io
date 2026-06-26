@@ -8,6 +8,7 @@ description: >
   and agentic tool use.
 importance: 3
 category: AI for Scientific Discovery
+institution: SES AI
 tags:
   - Knowledge Extraction
   - Scientific Dataset Curation
