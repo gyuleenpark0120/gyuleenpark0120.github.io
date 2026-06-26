@@ -38,7 +38,7 @@ layout: default
         <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap;">
           <div style="flex: 1; min-width: 250px;">
             {{ title_html -}}
-            {{- content }}
+            {{- page.bio | markdownify }}
           </div>
           <div class="profile float-left" style="flex-shrink: 0;">{{ profile_html }}</div>
         </div>
@@ -47,10 +47,11 @@ layout: default
           <div class="profile float-right" style="flex-shrink: 0;">{{ profile_html }}</div>
           <div style="flex: 1; min-width: 250px;">
             {{ title_html -}}
-            {{- content }}
+            {{- page.bio | markdownify }}
           </div>
         </div>
       {% endif %}
+      {{ content }}
     {% else %}
       <header class="post-header">
         <h1 class="post-title">
