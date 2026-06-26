@@ -302,18 +302,27 @@ html[data-theme="dark"] .social .contact-icons a img {
     }
   }
 
+  .tl-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-bottom: 0.2rem;
+  }
+
   .tl-date {
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     color: var(--global-text-color);
-    display: block;
-    margin-bottom: 0.25rem;
+    white-space: nowrap;
+    flex-shrink: 0;
+    opacity: 0.65;
   }
 
   .tl-title {
     font-size: 1rem;
     font-weight: 600;
     color: var(--global-text-color);
-    margin-bottom: 0.2rem;
+    flex: 1;
   }
 
   .tl-place {
