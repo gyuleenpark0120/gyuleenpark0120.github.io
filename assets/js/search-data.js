@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research and engineering projects spanning AI systems for scientific discovery and experimental materials science.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -75,51 +75,36 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-deepspace-multi-agent-scientific-ai-system",
+          title: 'Deepspace – Multi-Agent Scientific AI System',
+          description: "Architected an LLM-orchestrated multi-agent AI system for battery and materials R&amp;D, enabling complex expert questions to be decomposed into coordinated workflows for literature retrieval, evidence synthesis, and traceable scientific reasoning. Achieved 6× latency reduction and launched as a core product feature.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_deepspace/";
+            },},{id: "projects-llm-evaluation-framework-judge-diagnose-architect",
+          title: 'LLM Evaluation Framework – Judge-Diagnose-Architect',
+          description: "Designed and deployed an automated evaluation system for open-ended scientific Q&amp;A, achieving ~82% alignment with expert scores via iterative rubric optimization. Benchmarked frontier and internal LLMs on 2,390 real R&amp;D questions; inter-annotator reliability confirmed at Krippendorff&#39;s α = 0.92.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_evaluation/";
+            },},{id: "projects-chemistry-knowledge-extraction-unstructured-literature-to-structured-records",
+          title: 'Chemistry Knowledge Extraction – Unstructured Literature to Structured Records',
+          description: "Designed a reusable knowledge extraction framework converting unstructured chemistry literature into structured records of molecules, properties, mechanisms, and experimental context – extensible across chemistry domains for training data, molecular screening, and agentic tool use.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_knowledge_extraction/";
+            },},{id: "projects-scientific-literature-pipeline-20k-to-500k-papers",
+          title: 'Scientific Literature Pipeline – 20k to 500k Papers',
+          description: "Built and scaled a large-scale scientific literature ingestion pipeline from 20k to 500k papers (25×) by diagnosing a systematic API coverage bottleneck through root-cause analysis and redesigning retrieval workflows with automated filtering, deduplication, and metadata validation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_literature_pipeline/";
+            },},{id: "projects-interfacial-engineering-in-lithium-metal-batteries",
+          title: 'Interfacial Engineering in Lithium Metal Batteries',
+          description: "Developed electrolyte formulation, SEI/CEI interphase design, and carbon-host strategies for lithium-ion and lithium-metal batteries, linking molecular-level solvation behavior and DFT-derived descriptors to electrochemical performance. Led Samsung SDI collaborative scale-up from coin cell to pouch cell.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/5_battery_interface/";
+            },},{id: "projects-selective-fluoride-removal-via-capacitive-deionization",
+          title: 'Selective Fluoride Removal via Capacitive Deionization',
+          description: "Synthesized reduced graphene oxide/hydroxyapatite composite electrodes for capacitive deionization, achieving selective fluoride removal from water. Connected materials synthesis and surface chemistry design with environmental application constraints.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/6_cdi_fluoride/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
