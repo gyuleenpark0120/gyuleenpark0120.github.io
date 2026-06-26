@@ -8,11 +8,10 @@ description: >
 importance: 6
 category: Experimental Materials Science
 tags:
-  - rGO/HAP Composite Synthesis
-  - Capacitive Deionization
-  - Fluoride Selectivity
-  - Surface Chemistry
-  - Environmental Electrochemistry
+  - XPS
+  - FT-IR
+  - EIS
+  - AFM
 related_publications: false
 ---
 

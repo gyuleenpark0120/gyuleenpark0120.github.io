@@ -9,11 +9,10 @@ description: >
 importance: 4
 category: AI for Scientific Discovery
 tags:
-  - Large-Scale Literature Mining
-  - API Root-Cause Diagnosis
-  - Relevance Filtering
-  - Metadata Validation
-  - RAG Infrastructure
+  - RAG Pipelines
+  - Corpus Quality Control
+  - Scientific Dataset Curation
+  - Python
 related_publications: false
 ---
 

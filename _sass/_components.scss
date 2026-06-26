@@ -356,6 +356,26 @@ html[data-theme="dark"] .social .contact-icons a img {
     font-size: 0.85rem;
     line-height: 2;
     color: var(--global-text-color);
+
+    code {
+      color: var(--global-text-color) !important;
+      background-color: transparent !important;
+      border: 1px solid var(--global-divider-color);
+      padding: 0.1rem 0.45rem;
+      border-radius: 0.25rem;
+      font-size: 0.82rem;
+      transition: border-color 0.15s ease, color 0.15s ease;
+    }
+  }
+
+  .skill-link {
+    text-decoration: none;
+    color: inherit;
+
+    &:hover code {
+      border-color: #7a6abf;
+      color: #7a6abf !important;
+    }
   }
 }
 
@@ -525,4 +545,31 @@ html[data-theme="dark"] .social .contact-icons a img {
 .proj-card:hover .proj-card-arrow {
   opacity: 0.5;
   transform: translateX(3px);
+}
+
+.proj-skill-filter-label {
+  font-size: 0.88rem;
+  color: var(--global-text-color);
+  margin-bottom: 1.2rem;
+
+  strong {
+    color: #7a6abf;
+  }
+}
+
+.proj-clear-btn {
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.5rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.25rem;
+  background: transparent;
+  color: var(--global-text-color);
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: inherit;
+
+  &:hover {
+    border-color: #7a6abf;
+    color: #7a6abf;
+  }
 }

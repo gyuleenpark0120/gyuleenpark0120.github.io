@@ -10,10 +10,9 @@ importance: 3
 category: AI for Scientific Discovery
 tags:
   - Knowledge Extraction
-  - Schema Design
-  - Few-Shot Prompting
-  - RFT Data Pipeline
   - Scientific Dataset Curation
+  - LLM API Integration
+  - Python
 related_publications: false
 ---
 

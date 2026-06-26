@@ -83,25 +83,25 @@ latest_posts:
       <div class="skills-row">
         <div class="skills-label">AI for Science</div>
         <div class="skills-pills">
-          <code>Multi-Agent Systems</code> · <code>LLM-as-a-Judge</code> · <code>Scientific Benchmarking</code> · <code>Knowledge Extraction</code> · <code>RAG Pipelines</code> · <code>Scientific Dataset Curation</code>
+          <a href="/projects/?skill=Multi-Agent+Systems" class="skill-link"><code>Multi-Agent Systems</code></a> · <a href="/projects/?skill=LLM-as-a-Judge" class="skill-link"><code>LLM-as-a-Judge</code></a> · <a href="/projects/?skill=Scientific+Benchmarking" class="skill-link"><code>Scientific Benchmarking</code></a> · <a href="/projects/?skill=Knowledge+Extraction" class="skill-link"><code>Knowledge Extraction</code></a> · <a href="/projects/?skill=RAG+Pipelines" class="skill-link"><code>RAG Pipelines</code></a> · <a href="/projects/?skill=Scientific+Dataset+Curation" class="skill-link"><code>Scientific Dataset Curation</code></a>
         </div>
       </div>
       <div class="skills-row">
         <div class="skills-label">Materials &amp; Electrochemistry</div>
         <div class="skills-pills">
-          <code>Electrolyte Design</code> · <code>SEI/CEI Engineering</code> · <code>Solvation Analysis</code> · <code>DFT/MD Interpretation</code> · <code>Coin/Pouch-Cell Fabrication</code>
+          <a href="/projects/?skill=Electrolyte+Design" class="skill-link"><code>Electrolyte Design</code></a> · <a href="/projects/?skill=SEI%2FCEI+Engineering" class="skill-link"><code>SEI/CEI Engineering</code></a> · <a href="/projects/?skill=Solvation+Analysis" class="skill-link"><code>Solvation Analysis</code></a> · <a href="/projects/?skill=DFT%2FMD+Interpretation" class="skill-link"><code>DFT/MD Interpretation</code></a> · <a href="/projects/?skill=Coin%2FPouch-Cell+Fabrication" class="skill-link"><code>Coin/Pouch-Cell Fabrication</code></a>
         </div>
       </div>
       <div class="skills-row">
         <div class="skills-label">Characterization</div>
         <div class="skills-pills">
-          <code>XPS</code> · <code>ToF-SIMS</code> · <code>SEM/FIB-SEM</code> · <code>Raman</code> · <code>NMR</code> · <code>FT-IR</code> · <code>EIS</code> · <code>AFM</code>
+          <a href="/projects/?skill=XPS" class="skill-link"><code>XPS</code></a> · <a href="/projects/?skill=ToF-SIMS" class="skill-link"><code>ToF-SIMS</code></a> · <a href="/projects/?skill=SEM%2FFIB-SEM" class="skill-link"><code>SEM/FIB-SEM</code></a> · <a href="/projects/?skill=Raman" class="skill-link"><code>Raman</code></a> · <a href="/projects/?skill=NMR" class="skill-link"><code>NMR</code></a> · <a href="/projects/?skill=FT-IR" class="skill-link"><code>FT-IR</code></a> · <a href="/projects/?skill=EIS" class="skill-link"><code>EIS</code></a> · <a href="/projects/?skill=AFM" class="skill-link"><code>AFM</code></a>
         </div>
       </div>
       <div class="skills-row">
         <div class="skills-label">Tools</div>
         <div class="skills-pills">
-          <code>Python</code> · <code>GitHub</code> · <code>LLM API Integration</code> · <code>Corpus Quality Control</code>
+          <a href="/projects/?skill=Python" class="skill-link"><code>Python</code></a> · <a href="/projects/?skill=GitHub" class="skill-link"><code>GitHub</code></a> · <a href="/projects/?skill=LLM+API+Integration" class="skill-link"><code>LLM API Integration</code></a> · <a href="/projects/?skill=Corpus+Quality+Control" class="skill-link"><code>Corpus Quality Control</code></a>
         </div>
       </div>
     </div>

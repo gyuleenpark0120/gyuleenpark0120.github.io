@@ -9,12 +9,9 @@ description: >
 importance: 1
 category: AI for Scientific Discovery
 tags:
-  - Multi-Agent Orchestration
-  - DAG Parallelization
-  - Tool-Use Design
-  - Prompt Optimization
-  - LLM Workflows
-  - Scientific Reasoning
+  - Multi-Agent Systems
+  - LLM API Integration
+  - Scientific Dataset Curation
 related_publications: false
 ---
 

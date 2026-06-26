@@ -11,10 +11,14 @@ category: Experimental Materials Science
 tags:
   - Electrolyte Design
   - SEI/CEI Engineering
-  - DFT Descriptors
-  - XPS / SEM / EIS
-  - Pouch-Cell Scale-Up
-  - Samsung SDI Collaboration
+  - Solvation Analysis
+  - DFT/MD Interpretation
+  - Coin/Pouch-Cell Fabrication
+  - XPS
+  - ToF-SIMS
+  - SEM/FIB-SEM
+  - NMR
+  - EIS
 related_publications: false
 ---
 

@@ -20,7 +20,7 @@ nav_order: 2
 <div class="proj-cards-grid">
 {% assign all_projects = site.projects | sort: "importance" %}
 {% for project in all_projects %}
-<a href="{{ project.url | relative_url }}" class="proj-card-link" data-category="{{ project.category }}">
+<a href="{{ project.url | relative_url }}" class="proj-card-link" data-category="{{ project.category }}" data-tags="{{ project.tags | join: ',' }}">
   <div class="proj-card {% if project.category == 'AI for Scientific Discovery' %}proj-card-ai{% else %}proj-card-exp{% endif %}">
     <div class="proj-cat-pill {% if project.category == 'AI for Scientific Discovery' %}pill-ai{% else %}pill-exp{% endif %}">
       {% if project.category == "AI for Scientific Discovery" %}
@@ -49,18 +49,30 @@ document.addEventListener('DOMContentLoaded', function () {
   var btns = document.querySelectorAll('.proj-filter-btn');
   var cards = document.querySelectorAll('.proj-card-link');
 
+  function filterCards(category, skill) {
+    cards.forEach(function (card) {
+      var catMatch = !category || category === 'all' || card.dataset.category === category;
+      var tagMatch = !skill || (card.dataset.tags || '').toLowerCase().includes(skill.toLowerCase());
+      card.style.display = (catMatch && tagMatch) ? '' : 'none';
+    });
+  }
+
+  // Handle URL ?skill= param on load
+  var params = new URLSearchParams(window.location.search);
+  var skillParam = params.get('skill');
+  if (skillParam) {
+    filterCards('all', skillParam);
+    var label = document.createElement('div');
+    label.className = 'proj-skill-filter-label';
+    label.innerHTML = 'Filtered by skill: <strong>' + skillParam + '</strong> <button onclick="window.location.href=window.location.pathname" class="proj-clear-btn">✕ clear</button>';
+    document.querySelector('.proj-filter-bar').after(label);
+  }
+
   btns.forEach(function (btn) {
     btn.addEventListener('click', function () {
-      var filter = this.dataset.filter;
       btns.forEach(function (b) { b.classList.remove('active'); });
       this.classList.add('active');
-      cards.forEach(function (card) {
-        if (filter === 'all' || card.dataset.category === filter) {
-          card.style.display = '';
-        } else {
-          card.style.display = 'none';
-        }
-      });
+      filterCards(this.dataset.filter, null);
     });
   });
 });

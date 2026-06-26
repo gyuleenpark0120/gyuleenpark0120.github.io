@@ -10,10 +10,8 @@ importance: 2
 category: AI for Scientific Discovery
 tags:
   - LLM-as-a-Judge
-  - Rubric Optimization
-  - Multi-Dimensional Evaluation
-  - Inter-Annotator Reliability
   - Scientific Benchmarking
+  - Python
 related_publications: false
 ---
 
