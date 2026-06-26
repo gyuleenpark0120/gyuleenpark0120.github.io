@@ -399,14 +399,15 @@ html[data-theme="dark"] .social .contact-icons a img {
   transition: all 0.2s ease;
 
   &:hover {
-    border-color: var(--global-theme-color);
-    color: var(--global-theme-color);
+    border-color: #7a6abf;
+    color: #7a6abf;
   }
 
   &.active {
-    background: var(--global-theme-color);
-    border-color: var(--global-theme-color);
-    color: white;
+    background: rgba(108, 87, 180, 0.12);
+    border-color: #7a6abf;
+    color: #7a6abf;
+    font-weight: 600;
   }
 }
 
@@ -448,11 +449,11 @@ html[data-theme="dark"] .social .contact-icons a img {
   }
 
   &.proj-card-ai {
-    border-left-color: var(--global-theme-color);
+    border-left-color: #7a6abf;
   }
 
   &.proj-card-exp {
-    border-left-color: #2a9d8f;
+    border-left-color: #3d8b7a;
   }
 }
 
@@ -467,13 +468,13 @@ html[data-theme="dark"] .social .contact-icons a img {
   margin-bottom: 0.55rem;
 
   &.pill-ai {
-    background: color-mix(in srgb, var(--global-theme-color) 12%, transparent);
-    color: var(--global-theme-color);
+    background: rgba(108, 87, 180, 0.1);
+    color: #7a6abf;
   }
 
   &.pill-exp {
-    background: rgba(42, 157, 143, 0.12);
-    color: #2a9d8f;
+    background: rgba(61, 139, 122, 0.1);
+    color: #3d8b7a;
   }
 }
 
