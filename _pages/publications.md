@@ -16,9 +16,9 @@ nav_order: 1
 <div class="publications">
 
 <h2>First-author publications</h2>
-{% bibliography --group_by none --query @*[first_author=true] %}
+{% bibliography --file first_author --group_by none %}
 
 <h2>Co-author publications</h2>
-{% bibliography --group_by none --query @*[coauthor=true] %}
+{% bibliography --file coauthor --group_by none %}
 
 </div>

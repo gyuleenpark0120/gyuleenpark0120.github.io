@@ -27,6 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a scientist with a Ph.D. background in battery and environmental electrochemical systems, now working at the intersection of AI and materials discovery. My recent work focuses on LLM-based agentic systems, scientific data pipelines, and evidence-grounded workflows for AI-assisted materials R&D.
+I am a scientist with a Ph.D. background in energy and environmental application systems, now working at the intersection of AI and scientific discovery. My recent work focuses on LLM-based agentic systems, scientific data pipelines, and AI-assisted R&D workflows.
 
-My long-term interest is AI for science: building systems that help researchers turn complex scientific knowledge into better experimental and materials decisions.
+My long-term interest is building AI systems that help researchers turn complex scientific knowledge into better experimental and technical decisions.
+
+I’m excited to keep building at this intersection and contribute to more transparent, useful, and actionable AI for science.
