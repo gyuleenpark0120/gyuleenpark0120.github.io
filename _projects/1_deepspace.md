@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Multi-Agent Scientific AI System"
+title: "Multi-Agent AI Assistant for Scientific R&D"
 description: >
   Architected an LLM-orchestrated multi-agent AI system (Deepspace) for battery and materials R&D,
   enabling complex expert questions to be decomposed into coordinated workflows for
@@ -18,7 +18,7 @@ related_publications: false
 
 ## Overview
 
-Deepspace is a multi-agent scientific AI system designed for battery and materials scientists. The goal was to move beyond a single-LLM chatbot toward a system that could coordinate specialized agents – each responsible for a distinct subtask – and synthesize their outputs into coherent, evidence-grounded answers to complex R&D questions.
+[Deepspace](https://www.nasdaq.com/press-release/ses-ai-launches-agentic-capability-latest-molecular-universe-release-increase-value) is a multi-agent scientific AI system designed for battery and materials scientists. The goal was to move beyond a single-LLM chatbot toward a system that could coordinate specialized agents – each responsible for a distinct subtask – and synthesize their outputs into coherent, evidence-grounded answers to complex R&D questions.
 
 I conceived and architected Deepspace at a time when agentic AI was in its early stages, identifying the paradigm as the right approach to leverage our large scientific literature corpus more intelligently.
 
