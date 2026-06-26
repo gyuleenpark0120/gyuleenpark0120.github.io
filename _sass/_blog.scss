@@ -4,13 +4,23 @@
 
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
+  text-align: left;
   padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 
   h1 {
     color: var(--global-theme-color);
-    font-size: 5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-bottom: 0.3rem;
+  }
+
+  h2 {
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: var(--global-text-color-light);
+    margin-bottom: 0;
   }
 }
 
