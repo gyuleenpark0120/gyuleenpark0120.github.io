@@ -462,7 +462,7 @@ html[data-theme="dark"] .social .contact-icons a img {
 .proj-card {
   background: var(--global-card-bg-color);
   border: 1px solid var(--global-divider-color);
-  border-left-width: 3px;
+  border-left-width: 1.4px;
   border-radius: 0.6rem;
   padding: 1.2rem 1.3rem 1.1rem;
   height: 100%;
@@ -591,5 +591,144 @@ html[data-theme="dark"] .social .contact-icons a img {
   &:hover {
     border-color: #7a6abf;
     color: #7a6abf;
+  }
+}
+
+// ─── Paper Review Post ───────────────────────────────────────────────────────
+
+.paper-header {
+  border: 1px solid var(--global-divider-color);
+  border-left: 1.4px solid var(--global-theme-color);
+  border-radius: 0.6rem;
+  padding: 1.3rem 1.5rem;
+  margin-bottom: 2.2rem;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 2px 10px var(--global-card-shadow-color);
+
+  .paper-badges {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+
+  .paper-venue-badge {
+    font-size: 0.68rem;
+    font-weight: 700;
+    padding: 0.18rem 0.65rem;
+    border-radius: 1rem;
+    background: var(--global-theme-color);
+    color: #fff;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .paper-year-badge {
+    font-size: 0.68rem;
+    font-weight: 600;
+    padding: 0.18rem 0.55rem;
+    border-radius: 1rem;
+    background: var(--global-divider-color);
+    color: var(--global-text-color-light);
+  }
+
+  .paper-full-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.5;
+    margin: 0 0 0.7rem;
+    color: var(--global-text-color);
+  }
+
+  .paper-tldr {
+    font-size: 0.88rem;
+    color: var(--global-text-color-light);
+    font-style: italic;
+    line-height: 1.55;
+    margin: 0;
+    padding-top: 0.65rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+}
+
+.paper-link-badge {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+  text-decoration: none;
+  padding: 0.18rem 0.55rem;
+  border-radius: 1rem;
+  border: 1px solid var(--global-theme-color);
+  transition: background 0.15s, color 0.15s;
+
+  &:hover {
+    background: var(--global-theme-color);
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+.paper-figure {
+  margin: 1.6rem 0;
+  text-align: center;
+
+  img {
+    max-width: 100%;
+    border-radius: 0.4rem;
+    border: 1px solid var(--global-divider-color);
+  }
+
+  figcaption {
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.5rem;
+    font-style: italic;
+  }
+}
+
+.paper-section-label {
+  font-size: 0.63rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--global-theme-color);
+  margin-bottom: 0.55rem;
+}
+
+.paper-what {
+  background: var(--global-code-bg-color);
+  border-left: 1.4px solid var(--global-theme-color);
+  border-radius: 0 0.45rem 0.45rem 0;
+  padding: 1rem 1.25rem;
+  margin: 1.8rem 0;
+  font-size: 0.93rem;
+  line-height: 1.7;
+  color: var(--global-text-color);
+}
+
+.paper-takeaway {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  padding: 1.1rem 1.3rem;
+  margin: 1.8rem 0;
+
+  .takeaway-item {
+    display: flex;
+    gap: 0.65rem;
+    font-size: 0.93rem;
+    line-height: 1.65;
+    margin-bottom: 0.6rem;
+    color: var(--global-text-color);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .ti-marker {
+      color: var(--global-theme-color);
+      font-weight: 700;
+      flex-shrink: 0;
+      user-select: none;
+    }
   }
 }
