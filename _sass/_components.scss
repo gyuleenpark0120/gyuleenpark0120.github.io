@@ -321,42 +321,41 @@ html[data-theme="dark"] .social .contact-icons a img {
     color: var(--global-text-color);
   }
 
-  .skills-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 0.85rem;
+  .skills-table-card {
+    padding: 0 !important;
+    overflow: hidden;
   }
 
-  .skill-category {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.75rem;
-    flex-wrap: wrap;
+  .skills-row {
+    display: grid;
+    grid-template-columns: 185px 1fr;
+    padding: 0.8rem 1.25rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    align-items: start;
+    gap: 0;
 
-    .skill-label {
-      font-size: 0.95rem;
-      font-weight: 600;
-      color: var(--global-text-color);
-      min-width: 160px;
-      padding-top: 0.15rem;
-      flex-shrink: 0;
+    &:last-child {
+      border-bottom: none;
     }
 
-    .skill-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+      gap: 0.4rem;
     }
   }
 
-  .skill-tag {
-    display: inline-block;
-    padding: 0.2rem 0.65rem;
-    font-size: 0.88rem;
-    border-radius: 0.25rem;
-    background-color: transparent;
+  .skills-label {
+    font-size: 0.9rem;
+    font-weight: 700;
     color: var(--global-text-color);
-    border: 1px solid var(--global-divider-color);
+    padding-right: 1rem;
+    padding-top: 0.15rem;
+  }
+
+  .skills-pills {
+    font-size: 0.85rem;
+    line-height: 2;
+    color: var(--global-text-color);
   }
 }
 

@@ -79,45 +79,29 @@ latest_posts:
 
   <div class="timeline-section tl-animate">
     <h3 class="timeline-heading"><i class="fa-solid fa-code"></i> Skills</h3>
-    <div class="timeline-card tl-animate">
-      <div class="skills-grid">
-        <div class="skill-category">
-          <span class="skill-label">AI for Science</span>
-          <div class="skill-tags">
-            <span class="skill-tag">Agentic AI</span>
-            <span class="skill-tag">LLM-as-a-Judge</span>
-            <span class="skill-tag">Literature Mining</span>
-            <span class="skill-tag">Knowledge Extraction</span>
-          </div>
+    <div class="timeline-card tl-animate skills-table-card">
+      <div class="skills-row">
+        <div class="skills-label">AI for Science</div>
+        <div class="skills-pills">
+          <code>Multi-Agent Systems</code> · <code>LLM-as-a-Judge</code> · <code>Scientific Benchmarking</code> · <code>Knowledge Extraction</code> · <code>RAG Pipelines</code> · <code>Scientific Dataset Curation</code>
         </div>
-        <div class="skill-category">
-          <span class="skill-label">Scientific Data</span>
-          <div class="skill-tags">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">Data Pipelines</span>
-            <span class="skill-tag">Dataset Curation</span>
-          </div>
+      </div>
+      <div class="skills-row">
+        <div class="skills-label">Materials &amp; Electrochemistry</div>
+        <div class="skills-pills">
+          <code>Electrolyte Design</code> · <code>SEI/CEI Engineering</code> · <code>Solvation Analysis</code> · <code>DFT/MD Interpretation</code> · <code>Coin/Pouch-Cell Fabrication</code>
         </div>
-        <div class="skill-category">
-          <span class="skill-label">Materials & Chemistry</span>
-          <div class="skill-tags">
-            <span class="skill-tag">Li-ion/Metal Batteries</span>
-            <span class="skill-tag">Electrolyte Design</span>
-            <span class="skill-tag">Interphase Chemistry</span>
-          </div>
+      </div>
+      <div class="skills-row">
+        <div class="skills-label">Characterization</div>
+        <div class="skills-pills">
+          <code>XPS</code> · <code>ToF-SIMS</code> · <code>SEM/FIB-SEM</code> · <code>Raman</code> · <code>NMR</code> · <code>FT-IR</code> · <code>EIS</code> · <code>AFM</code>
         </div>
-        <div class="skill-category">
-          <span class="skill-label">Characterization</span>
-          <div class="skill-tags">
-            <span class="skill-tag">EIS</span>
-            <span class="skill-tag">XPS</span>
-            <span class="skill-tag">SEM</span>
-            <span class="skill-tag">Raman</span>
-            <span class="skill-tag">NMR</span>
-            <span class="skill-tag">FT-IR</span>
-            <span class="skill-tag">AFM</span>
-            <span class="skill-tag">BET</span>
-          </div>
+      </div>
+      <div class="skills-row">
+        <div class="skills-label">Tools</div>
+        <div class="skills-pills">
+          <code>Python</code> · <code>GitHub</code> · <code>LLM API Integration</code> · <code>Corpus Quality Control</code>
         </div>
       </div>
     </div>
