@@ -46,28 +46,28 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-multi-agent-ai-assistant-for-scientific-r-amp-d",
-          title: 'Multi-Agent AI Assistant for Scientific R&amp;amp;D',
-          description: "Architected an LLM-orchestrated multi-agent AI system (Deepspace) for battery and materials R&amp;D, enabling complex expert questions to be decomposed into coordinated workflows across a scientific literature corpus and a millions-scale molecular properties database (DFT-computed) to accelerate molecule discovery. Achieved 6× latency reduction and launched as a core product feature.",
+          section: "News",},{id: "projects-multi-agent-ai-system-for-scientific-r-amp-d",
+          title: 'Multi-Agent AI System for Scientific R&amp;amp;D',
+          description: "Developed a multi-agent AI system (Deepspace) for battery and materials R&amp;D, enabling complex scientific questions to be decomposed into coordinated workflows across a scientific literature corpus and a millions-scale molecular properties database (DFT- and ML-derived) to support molecule discovery.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_deepspace/";
-            },},{id: "projects-llm-evaluation-framework",
-          title: 'LLM Evaluation Framework',
-          description: "Designed and deployed an automated evaluation system for open-ended scientific Q&amp;A, achieving ~82% alignment with expert scores via iterative rubric optimization. Benchmarked frontier and internal LLMs on 2,390 real R&amp;D questions; inter-annotator reliability confirmed at Krippendorff&#39;s α = 0.92.",
+            },},{id: "projects-llm-benchmarking-framework",
+          title: 'LLM Benchmarking Framework',
+          description: "Designed an automated evaluation framework for open-ended scientific Q&amp;A, covering iterative rubric optimization, multi-dimensional scoring, and human gold dataset construction for automated scientific evaluation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_evaluation/";
+              window.location.href = "/projects/2_benchmarking/";
             },},{id: "projects-chemistry-knowledge-extraction-unstructured-literature-to-structured-records",
           title: 'Chemistry Knowledge Extraction – Unstructured Literature to Structured Records',
-          description: "Designed a reusable knowledge extraction framework converting unstructured chemistry literature into structured records of molecules, properties, mechanisms, and experimental context – extensible across chemistry domains for training data, molecular screening, and agentic tool use.",
+          description: "Developed a reusable knowledge extraction framework converting unstructured chemistry literature into structured records of molecules, properties, mechanisms, and experimental context – extensible across chemistry domains for training data, molecular screening, and agentic tool use.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_knowledge_extraction/";
-            },},{id: "projects-scientific-literature-pipeline-20k-to-500k-papers",
-          title: 'Scientific Literature Pipeline – 20k to 500k Papers',
-          description: "Built and scaled a large-scale scientific literature ingestion pipeline from 20k to 500k papers (25×) by diagnosing a systematic API coverage bottleneck through root-cause analysis and redesigning retrieval workflows with automated filtering, deduplication, and metadata validation.",
+            },},{id: "projects-scientific-literature-pipeline",
+          title: 'Scientific Literature Pipeline',
+          description: "Developed a scientific literature ingestion pipeline for domain-specific corpus construction, with a focus on retrieval quality through structured keyword generation, LLM-based relevance filtering, and systematic metadata validation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_literature_pipeline/";
-            },},{id: "projects-interfacial-engineering-in-lithium-metal-batteries",
-          title: 'Interfacial Engineering in Lithium Metal Batteries',
+            },},{id: "projects-interfacial-engineering-in-lithium-batteries",
+          title: 'Interfacial Engineering in Lithium Batteries',
           description: "Developed electrolyte formulation, SEI/CEI interphase design, and carbon-host strategies for lithium-ion and lithium-metal batteries, linking molecular-level solvation behavior and DFT-derived descriptors to electrochemical performance. Led Samsung SDI collaborative scale-up from coin cell to pouch cell.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_battery_interface/";
