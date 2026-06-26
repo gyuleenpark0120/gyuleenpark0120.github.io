@@ -22,7 +22,7 @@ Evaluating LLM responses to complex, open-ended scientific questions is fundamen
 
 ---
 
-## What I Built
+## Contributions
 
 **Judge-Diagnose-Architect: Iterative Rubric Optimization**
 The core insight: rather than writing a rubric once and hoping it works, use an iterative LLM loop to automatically align the rubric to human scoring behavior.

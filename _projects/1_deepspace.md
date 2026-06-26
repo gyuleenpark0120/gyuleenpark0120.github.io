@@ -26,7 +26,7 @@ I conceived and architected Deepspace at a time when agentic AI was in its early
 
 ---
 
-## What I Built
+## Contributions
 
 **Agent Architecture Design**
 Defined agent roles, instructions, tool use, and inter-agent interaction logic from scratch. The system decomposes an incoming R&D question into subtasks – literature retrieval, molecular property lookup, evidence synthesis, domain-specific reasoning – each handled by a task-specialized agent operating over the appropriate data source (literature corpus or DFT-computed molecular database).

@@ -23,7 +23,7 @@ Unstructured scientific papers contain rich chemical knowledge – claimed molec
 
 ---
 
-## What I Built
+## Contributions
 
 **Reusable Extraction Schema**
 Defined a five-category schema applicable across chemistry domains:

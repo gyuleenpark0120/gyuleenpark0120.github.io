@@ -24,7 +24,7 @@ This project developed a reduced graphene oxide / hydroxyapatite (rGO/HAP) compo
 
 ---
 
-## What I Did
+## Contributions
 
 **Composite Electrode Synthesis**
 Synthesized rGO/HAP composites via hydrothermal routes, controlling rGO-to-HAP ratios and surface functionalization to tune both conductivity and fluoride-binding capacity.

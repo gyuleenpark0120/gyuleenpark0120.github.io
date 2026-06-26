@@ -23,7 +23,7 @@ A high-quality scientific corpus is the foundation for RAG-based AI systems, kno
 
 ---
 
-## What I Built
+## Contributions
 
 **Root-Cause Analysis: The API 1,000-Limit Bug**
 While testing bulk retrieval, I noticed the pipeline consistently hitting a 1,000-result ceiling regardless of query scope. Initial hypothesis (over-constrained keyword filters) was tested and ruled out. Formed a new hypothesis: the API itself had a hidden coverage limit. Split the query by metadata (top 50 journals, quarterly) to circumvent it – and discovered a new anomaly: Q1 always hit 1,000 while other quarters returned random small counts (50–200). This pointed to a metadata quality issue: papers with missing date metadata were being bucketed into Q1. Confirmed via direct metadata inspection. Identified and implemented a replacement API with comprehensive metadata support and no retrieval cap.
