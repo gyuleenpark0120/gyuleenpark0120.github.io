@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Interfacial Engineering in Lithium Metal Batteries"
+title: "Interfacial Engineering in Lithium Batteries"
 description: >
   Developed electrolyte formulation, SEI/CEI interphase design, and carbon-host strategies
   for lithium-ion and lithium-metal batteries, linking molecular-level solvation behavior
@@ -25,7 +25,7 @@ related_publications: false
 
 ## Overview
 
-My doctoral research focused on understanding and engineering the electrochemical interfaces in lithium-metal batteries – one of the most complex and performance-limiting components in next-generation energy storage. The work spans electrolyte formulation, solid electrolyte interphase (SEI) and cathode electrolyte interphase (CEI) design, carbon-host architecture, and the molecular-level interpretation of how electrolyte structure governs interfacial behavior and cycling performance.
+My doctoral research focused on understanding and engineering electrochemical interfaces in lithium-metal batteries, where interfacial stability is one of the central bottlenecks in next-generation energy storage. The work spans electrolyte formulation, solid electrolyte interphase (SEI) and cathode electrolyte interphase (CEI) design, carbon-host architecture, and the molecular-level interpretation of how electrolyte structure governs interfacial behavior and cycling performance.
 
 This experimental foundation directly informs my approach to AI for materials science: the ability to define what molecular properties matter, what experimental outcomes are meaningful, and how to connect the two is what makes domain-grounded AI system design possible.
 
@@ -34,7 +34,7 @@ This experimental foundation directly informs my approach to AI for materials sc
 ## Research Directions
 
 **Electrolyte Design and Solvation Analysis**
-Designed electrolyte formulations targeting specific interfacial chemistries – free-solvent-derived vs. anion-derived SEI formation pathways. Used DFT-derived molecular descriptors (HOMO/LUMO energies, electrostatic surface potentials, partial charges) to rationalize solvation shell structure and predict decomposition selectivity. Connected these molecular-level insights to measured Coulombic efficiency, cycling stability, and failure behavior.
+Designed electrolyte formulations targeting specific interfacial chemistries, particularly the distinction between free-solvent-derived and anion-derived SEI formation pathways. Used DFT-derived molecular descriptors (HOMO/LUMO energies, electrostatic surface potentials, partial charges) to rationalize solvation shell structure and predict decomposition selectivity. Connected these molecular-level insights to measured Coulombic efficiency, cycling stability, and failure behavior.
 
 > _Key publication: "Strategy for Stable Interface in Lithium Metal Batteries: Free Solvent Derived vs. Anion Derived" – ACS Energy Letters (2022)_
 
@@ -50,7 +50,7 @@ Applied a broad suite of characterization techniques to connect interfacial stru
 - **Electrochemical**: CV, EIS, LSV, GCD (coin-cell fabrication through post-mortem)
 
 **Samsung SDI Collaborative Scale-Up**
-Led translation of coin-cell research findings into commercial-format pouch-cell evaluation in collaboration with Samsung SDI. Bridged the gap between mechanistic laboratory-scale discovery and manufacturing-relevant validation – navigating the additional complexity of stack pressure, electrolyte volume constraints, and formation protocols that do not appear in coin-cell testing.
+Led translation of coin-cell research findings into commercial-format pouch-cell evaluation in collaboration with Samsung SDI, addressing the additional complexity of stack pressure, electrolyte volume constraints, and formation protocols that do not appear in coin-cell testing.
 
 ---
 
@@ -59,6 +59,8 @@ Led translation of coin-cell research findings into commercial-format pouch-cell
 - G. Park, K. Lee, D.-J. Yoo\*, J.W. Choi\*, "Strategy for Stable Interface in Lithium Metal Batteries: Free Solvent Derived vs. Anion Derived," _ACS Energy Letters_, 7 (12), 4274–4281 (2022).
 - G. Park†, S. Kim†, J. Kim, S. Bae, J.W. Choi\*, "Understanding and Strategies for High Energy Density Lithium-ion/Lithium Metal Hybrid Batteries," _Advanced Energy Materials_, 14 (37), 2401289 (2024).
 - S. Kim†, G. Park†, et al., J.W. Choi\*, "Lithium-Metal Batteries: From Fundamental Research to Industrialization," _Advanced Materials_, 35 (43), 2206625 (2023).
+
+<small>† Equal contribution (co-first authors) &nbsp;&nbsp; \* Corresponding author</small>
 
 ---
 
