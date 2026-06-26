@@ -46,8 +46,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-multi-agent-scientific-ai-system",
-          title: 'Multi-Agent Scientific AI System',
+          section: "News",},{id: "projects-multi-agent-ai-assistant-for-scientific-r-amp-d",
+          title: 'Multi-Agent AI Assistant for Scientific R&amp;amp;D',
           description: "Architected an LLM-orchestrated multi-agent AI system (Deepspace) for battery and materials R&amp;D, enabling complex expert questions to be decomposed into coordinated workflows for literature retrieval, evidence synthesis, and traceable scientific reasoning. Achieved 6× latency reduction and launched as a core product feature.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_deepspace/";
