@@ -12,7 +12,7 @@ institution: SES AI
 tags:
   - Knowledge Extraction
   - Scientific Dataset Curation
-  - LLM API Integration
+  - LLM Orchestration
   - Python
 related_publications: false
 ---

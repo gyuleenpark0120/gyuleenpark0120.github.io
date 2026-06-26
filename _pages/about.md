@@ -101,7 +101,7 @@ latest_posts:
       <div class="skills-row">
         <div class="skills-label">Tools</div>
         <div class="skills-pills">
-          <a href="/projects/?skill=Python" class="skill-link"><code>Python</code></a> · <a href="/projects/?skill=GitHub" class="skill-link"><code>GitHub</code></a> · <a href="/projects/?skill=LLM+API+Integration" class="skill-link"><code>LLM API Integration</code></a> · <a href="/projects/?skill=Corpus+Quality+Control" class="skill-link"><code>Corpus Quality Control</code></a>
+          <a href="/projects/?skill=Python" class="skill-link"><code>Python</code></a> · <a href="/projects/?skill=GitHub" class="skill-link"><code>GitHub</code></a> · <a href="/projects/?skill=LLM+Orchestration" class="skill-link"><code>LLM Orchestration</code></a> · <a href="/projects/?skill=Corpus+Quality+Control" class="skill-link"><code>Corpus Quality Control</code></a>
         </div>
       </div>
     </div>

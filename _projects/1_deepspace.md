@@ -11,7 +11,7 @@ category: AI for Scientific Discovery
 institution: SES AI
 tags:
   - Multi-Agent Systems
-  - LLM API Integration
+  - LLM Orchestration
   - Scientific Dataset Curation
 related_publications: false
 ---
