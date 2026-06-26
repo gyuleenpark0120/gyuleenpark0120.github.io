@@ -302,27 +302,26 @@ html[data-theme="dark"] .social .contact-icons a img {
     }
   }
 
-  .tl-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 0.75rem;
-    margin-bottom: 0.2rem;
-  }
-
   .tl-date {
+    float: right;
     font-size: 0.82rem;
     color: var(--global-text-color);
     white-space: nowrap;
-    flex-shrink: 0;
     opacity: 0.65;
+    margin-left: 0.75rem;
   }
 
   .tl-title {
     font-size: 1rem;
     font-weight: 600;
     color: var(--global-text-color);
-    flex: 1;
+    overflow: hidden;
+  }
+
+  .timeline-card::after {
+    content: "";
+    display: table;
+    clear: both;
   }
 
   .tl-place {

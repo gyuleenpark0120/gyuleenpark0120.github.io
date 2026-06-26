@@ -37,26 +37,20 @@ latest_posts:
   <div class="timeline-section tl-animate">
     <h3 class="timeline-heading"><i class="fa-solid fa-briefcase"></i> Experience</h3>
     <div class="timeline-card tl-animate">
-      <div class="tl-header">
-        <div class="tl-title">Senior Scientist</div>
-        <span class="tl-date">2024 – Present</span>
-      </div>
+      <span class="tl-date">2024 – Present</span>
+      <div class="tl-title">Senior Scientist</div>
       <div class="tl-place">LLM Team (Battery-AI)</div>
       <div class="tl-place">SES AI · Woburn, MA, USA</div>
     </div>
     <div class="timeline-card tl-animate">
-      <div class="tl-header">
-        <div class="tl-title">Graduate Researcher (Ph.D.)</div>
-        <span class="tl-date">2020 – 2024</span>
-      </div>
+      <span class="tl-date">2020 – 2024</span>
+      <div class="tl-title">Graduate Researcher (Ph.D.)</div>
       <div class="tl-place">Multi-Scale Energy Science & Technology Laboratory</div>
       <div class="tl-place">Seoul National University · Seoul, South Korea</div>
     </div>
     <div class="timeline-card tl-animate">
-      <div class="tl-header">
-        <div class="tl-title">Graduate Researcher (M.S.)</div>
-        <span class="tl-date">2018 – 2020</span>
-      </div>
+      <span class="tl-date">2018 – 2020</span>
+      <div class="tl-title">Graduate Researcher (M.S.)</div>
       <div class="tl-place">Water Environment & Energy Lab</div>
       <div class="tl-place">Seoul National University · Seoul, South Korea</div>
     </div>
@@ -65,26 +59,20 @@ latest_posts:
   <div class="timeline-section tl-animate">
     <h3 class="timeline-heading"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
     <div class="timeline-card tl-animate">
-      <div class="tl-header">
-        <div class="tl-title">Ph.D. in Chemical and Biological Engineering</div>
-        <span class="tl-date">2020 – 2024</span>
-      </div>
+      <span class="tl-date">2020 – 2024</span>
+      <div class="tl-title">Ph.D. in Chemical and Biological Engineering</div>
       <div class="tl-place">Seoul National University</div>
       <div class="tl-place">P.I. Prof. Jang Wook Choi</div>
     </div>
     <div class="timeline-card tl-animate">
-      <div class="tl-header">
-        <div class="tl-title">M.S. in Chemical and Biological Engineering</div>
-        <span class="tl-date">2018 – 2020</span>
-      </div>
+      <span class="tl-date">2018 – 2020</span>
+      <div class="tl-title">M.S. in Chemical and Biological Engineering</div>
       <div class="tl-place">Seoul National University</div>
       <div class="tl-place">P.I. Prof. Jeyong Yoon</div>
     </div>
     <div class="timeline-card tl-animate">
-      <div class="tl-header">
-        <div class="tl-title">B.S. in Environmental and Civil Engineering</div>
-        <span class="tl-date">2014 – 2018</span>
-      </div>
+      <span class="tl-date">2014 – 2018</span>
+      <div class="tl-title">B.S. in Environmental and Civil Engineering</div>
       <div class="tl-place">Korea University <em>(Cum Laude)</em></div>
     </div>
   </div>
@@ -122,17 +110,13 @@ latest_posts:
   <div class="timeline-section tl-animate">
     <h3 class="timeline-heading"><i class="fa-solid fa-award"></i> Certifications</h3>
     <div class="timeline-card tl-animate">
-      <div class="tl-header">
-        <div class="tl-title">Applying Machine Learning to Engineering and Science</div>
-        <span class="tl-date">2025</span>
-      </div>
+      <span class="tl-date">2025</span>
+      <div class="tl-title">Applying Machine Learning to Engineering and Science</div>
       <div class="tl-place">Massachusetts Institute of Technology</div>
     </div>
     <div class="timeline-card tl-animate">
-      <div class="tl-header">
-        <div class="tl-title">Machine Learning, Modeling, and Simulation Principles</div>
-        <span class="tl-date">2025</span>
-      </div>
+      <span class="tl-date">2025</span>
+      <div class="tl-title">Machine Learning, Modeling, and Simulation Principles</div>
       <div class="tl-place">Massachusetts Institute of Technology</div>
     </div>
   </div>
