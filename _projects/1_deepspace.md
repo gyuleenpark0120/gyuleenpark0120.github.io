@@ -42,15 +42,6 @@ Ran systematic internal scientist testing comparing Deepspace against the prior 
 
 ---
 
-## Impact
-
-- **6× end-to-end latency reduction** (2 hr → 20 min) without significant loss in answer quality
-- **Product launch**: became a core feature; two major battery tech companies contacted the company after release
-- Prompted company leadership to expand the LLM team (now ~15 scientists), directly attributable to Deepspace's reception
-- Established the foundation for ongoing agentic AI development within the Battery-AI team
-
----
-
 ## Technical Highlights
 
 `Multi-Agent Orchestration` `DAG-based Task Parallelization` `Tool-Use Design` `Agent-Level Ablation` `Prompt Optimization` `LLM-Orchestrated Workflows` `Scientific Reasoning` `DFT Molecular Database` `Molecule Discovery`

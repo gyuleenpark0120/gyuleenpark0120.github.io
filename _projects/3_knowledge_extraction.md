@@ -49,15 +49,6 @@ Extended the extraction framework to produce RFT-ready structured data for a mol
 
 ---
 
-## Impact
-
-- Reusable extraction infrastructure extensible to any molecule-centered chemistry domain
-- **~150k-paper databases** per domain built in 2 weeks via auto keyword generation, enabling new customer trials
-- **1,342 RFT-ready entries** across 465 battery additives; pipeline established as a team-owned capability
-- Framework concept elevated to a company-level "knowledge generation" product direction
-
----
-
 ## Technical Highlights
 
 `Structured Knowledge Extraction` `Molecule-Centered Schema Design` `Few-Shot Prompting` `RFT Data Pipeline` `Relevance Filtering` `Scientific Dataset Curation` `Domain-Generalizable Framework`

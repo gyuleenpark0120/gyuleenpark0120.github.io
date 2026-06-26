@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Scientific Literature Pipeline – 20k to 500k Papers"
+title: "Scientific Literature Pipeline"
 description: >
   Built and scaled a large-scale scientific literature ingestion pipeline from 20k to
   500k papers (25×) by diagnosing a systematic API coverage bottleneck through
@@ -41,15 +41,6 @@ When tasked with processing ~500k papers from an external institution (mixed dom
 
 **Structured Search Query Generation**
 Designed an agentic query-generation system producing structured POS/NEG keyword queries tailored to the target retrieval API, enabling direct injection into the pipeline without manual intervention.
-
----
-
-## Impact
-
-- **20k → 500k papers** (25×) covering ~20 years of battery and adjacent scientific literature
-- **~9k additional papers** recovered from noisy external data, representing a 45% coverage increase over the original database
-- Pipeline established as the canonical retrieval backbone for all downstream RAG, knowledge extraction, and model training workflows
-- Structured query generation system enabled two new-domain databases (~150k papers each) to be bootstrapped in two weeks
 
 ---
 

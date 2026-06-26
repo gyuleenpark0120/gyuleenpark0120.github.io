@@ -47,15 +47,6 @@ Deployed the optimized rubric to benchmark internal and frontier LLMs on 2,390 r
 
 ---
 
-## Impact
-
-- **~82% alignment** with expert scores (normalized MAE complement) – model updates now evaluated in minutes vs. manual effort
-- **Krippendorff's α = 0.92** – reliability metric that defended benchmark credibility in live client meetings
-- Benchmark results on 2,390 real R&D questions actively used in product promotion
-- Established the inter-annotator reliability step as standard protocol for all future human evaluations in the team
-
----
-
 ## Technical Highlights
 
 `LLM-as-a-Judge` `Rubric Optimization` `Multi-Dimensional Evaluation` `Inter-Annotator Reliability` `Krippendorff's α` `Scientific Benchmarking` `Expert Evaluation Protocols` `Failure-Mode Diagnosis`
