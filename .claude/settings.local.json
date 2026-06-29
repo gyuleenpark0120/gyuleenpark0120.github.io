@@ -1,7 +1,5 @@
 {
   "permissions": {
-    "allow": [
-      "WebFetch(domain:doi.org)"
-    ]
+    "allow": ["WebFetch(domain:doi.org)"]
   }
 }
