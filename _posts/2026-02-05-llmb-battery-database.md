@@ -39,6 +39,6 @@ What's distinctive is that it also extracts data from cycling graphs embedded in
   </div>
   <div class="takeaway-item">
     <span class="ti-marker">◇</span>
-    <span>The work ran almost simultaneously, and independently, with what I was building at SES AI. Different groups, same problem, similar intuition. When that happens, it usually means the need is real and the timing is right. The domain overlaps directly: LiMB, electrolyte, SEI. The same chemistry I spent my PhD studying experimentally, now being processed at scale by an LLM pipeline.</span>
+    <span>The graph digitizer part is actually the more interesting detail. Battery papers carry a lot of information in figures: cycling curves, EIS plots, SEM/TEM images, XRD patterns. Text extraction alone misses most of it. For AI systems targeting battery R&D to be genuinely useful, multimodal extraction (figures, tables, and text together) isn't optional; it's where the meaningful data lives.</span>
   </div>
 </div>
