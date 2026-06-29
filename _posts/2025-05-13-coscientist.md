@@ -2,7 +2,7 @@
 layout: post
 title: "Coscientist: Autonomous Chemical Research with LLMs"
 date: 2025-05-13
-description: A GPT-4-based system autonomously conducted chemistry research end-to-end — from literature search to robotic lab execution — successfully completing Suzuki coupling with minimal human intervention.
+description: A GPT-4-based system autonomously conducted chemistry research end-to-end: from literature search to robotic lab execution.
 tags: [AI-for-science, laboratory-automation, chemistry, agents, robotics]
 categories: ai-for-science
 thumbnail: /assets/img/posts/coscientist/system-overview.png
@@ -15,7 +15,7 @@ thumbnail: /assets/img/posts/coscientist/system-overview.png
     <a href="https://www.nature.com/articles/s41586-023-06792-0" class="paper-link-badge" target="_blank">paper ↗</a>
   </div>
   <p class="paper-full-title">Autonomous chemical research with large language models</p>
-  <p class="paper-tldr">GPT-4-based Coscientist searched literature, designed protocols, wrote robot control code, and executed real chemistry experiments — including Suzuki coupling — with minimal human involvement, demonstrating end-to-end autonomous research.</p>
+  <p class="paper-tldr">GPT-4-based Coscientist searched literature, designed protocols, wrote robot control code, and executed real chemistry experiments, including Suzuki coupling with minimal human involvement, demonstrating end-to-end autonomous research.</p>
 </div>
 
 <figure class="paper-figure">
@@ -28,7 +28,7 @@ thumbnail: /assets/img/posts/coscientist/system-overview.png
 
 Think through the stages of chemistry research: reading papers, designing experiments, operating equipment, analyzing results. Coscientist is a system that has AI autonomously handle all of them.
 
-Given an experimental goal, GPT-4 searches relevant literature, designs a protocol, writes code to control real lab robotics, and executes it. It successfully carried out actual chemical reactions — including Suzuki coupling — with minimal human intervention. This was the first paper to demonstrate "AI actually running experiments."
+Given an experimental goal, GPT-4 searches relevant literature, designs a protocol, writes code to control real lab robotics, and executes it. It successfully carried out actual chemical reactions (including Suzuki coupling) with minimal human intervention. First real demonstration of "AI actually running experiments."
 
 </div>
 
@@ -36,10 +36,10 @@ Given an experimental goal, GPT-4 searches relevant literature, designs a protoc
   <div class="paper-section-label">Takeaway</div>
   <div class="takeaway-item">
     <span class="ti-marker">◆</span>
-    <span>This paper makes the shift from "AI that advises" to "AI that acts" concrete. The bottleneck moves from language generation to the reliability of the physical interface — whether the robot arm actually does what the code says matters as much as AI performance. The problem is no longer just NLP; it's systems integration.</span>
+    <span>This paper makes the shift from "AI that advises" to "AI that acts" concrete. The bottleneck moves from language generation to physical reliability. Whether the robot arm does what the code says matters as much as model performance. The problem is no longer just NLP; it's systems integration.</span>
   </div>
   <div class="takeaway-item">
     <span class="ti-marker">◇</span>
-    <span>The experiments are well-known reactions with established protocols. The real open challenge is novel experiments where the protocol doesn't yet exist. Integrating structure exploration with synthesis feasibility checking — the direction my Deepspace project moves toward — is a natural next step in that trajectory.</span>
+    <span>The experiments are well-known reactions with established protocols. The real open challenge is novel experiments where the protocol doesn't yet exist. Integrating structure exploration with synthesis feasibility checking is where the molecular discovery in chemistry field should moves toward.</span>
   </div>
 </div>

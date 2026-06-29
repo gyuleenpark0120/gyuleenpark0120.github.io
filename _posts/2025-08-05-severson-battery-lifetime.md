@@ -26,9 +26,9 @@ thumbnail: /assets/img/posts/severson/prediction-vs-actual.png
 <div class="paper-what">
   <div class="paper-section-label">What this paper does</div>
 
-124 LFP cells were fast-charged and cycled to end-of-life. The key question: can you predict final lifetime — ranging from 150 to 2,300 cycles — from the first 100 cycles alone, before capacity visibly declines?
+124 LFP cells were fast-charged and cycled to end-of-life. The question: can you predict final lifetime (150 to 2,300 cycles) from the first 100 cycles alone, before capacity visibly declines?
 
-The input is subtle: the change in the voltage discharge curve between cycle 10 and cycle 100. A feature invisible to the naked eye, but carrying early signatures of the degradation already underway. ML picked up on this. Test error: 9.1%. What used to require months of cycling to evaluate could now be predicted from early-stage data.
+The input is subtle: the change in the voltage discharge curve between cycle 10 and cycle 100. Invisible to the naked eye, but carrying early signatures of degradation already underway. ML picked up on this. Test error: 9.1%. What used to require months of cycling to evaluate could be predicted from early-stage data.
 
 </div>
 
@@ -36,10 +36,10 @@ The input is subtle: the change in the voltage discharge curve between cycle 10 
   <div class="paper-section-label">Takeaway</div>
   <div class="takeaway-item">
     <span class="ti-marker">◆</span>
-    <span>The first paper to convincingly demonstrate that battery data → ML actually works at scale. The choice of input — subtle shape changes in voltage curves during cycles that look numerically fine — is the impressive part. The model is already distinguishing lifetimes in data that a human would call unremarkable.</span>
+    <span>The convincing part isn't just the accuracy. The input feature is subtle: shape changes in voltage curves that look numerically fine to a human. The model was already distinguishing lifetimes in data I would have called unremarkable.</span>
   </div>
   <div class="takeaway-item">
     <span class="ti-marker">◇</span>
-    <span>But the model doesn't explain why that voltage shape predicts lifetime — which degradation mechanism creates that signal. This is where this series begins: ML found the pattern. What caused it is a different question entirely.</span>
+    <span>But the model doesn't explain why. Which degradation mechanism creates that voltage signal? ML found the pattern. Bridging that gap between data-driven prediction and mechanistic understanding is one of the core open problems in AI for battery development.</span>
   </div>
 </div>

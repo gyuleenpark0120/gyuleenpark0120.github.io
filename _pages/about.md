@@ -5,7 +5,7 @@ permalink: /
 subtitle:
 
 bio: |
-  I am a scientist with a Ph.D. background in energy and environmental application systems, now working at the intersection of AI and scientific discovery. My recent work focuses on LLM-based agentic systems, scientific data pipelines, and AI-assisted R&D workflows.
+  I am a scientist with a Ph.D. background in energy and environmental application systems, now working at the intersection of AI and scientific discovery. My recent work focuses on agentic systems, scientific data pipelines, and AI-assisted R&D workflows.
 
   My long-term interest is building AI systems that help researchers turn complex scientific knowledge into better experimental and technical decisions. I'm excited to keep building at this intersection and contribute to more transparent, useful, and actionable AI for science.
 
@@ -15,7 +15,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p style="font-size:0.82rem; margin:0; text-align:center; display:block; width:100%; overflow-wrap:break-word; word-break:break-word;">
-    <em>Eiffel Tower, Paris, France, 2026</em>
+    <em>Acadia National Park, Maine, 2025</em>
     </p>
 
 selected_papers: False
