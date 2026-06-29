@@ -2,10 +2,10 @@
 layout: post
 title: "Coscientist: Autonomous Chemical Research with LLMs"
 date: 2025-05-13
-description: A GPT-4-based system autonomously conducted chemistry research end-to-end: from literature search to robotic lab execution.
+description: "A GPT-4-based system autonomously conducted chemistry research end-to-end: from literature search to robotic lab execution."
 tags: [AI-for-science, laboratory-automation, chemistry, agents, robotics]
 categories: ai-for-science
-thumbnail: /assets/img/posts/coscientist/system-overview.png
+# thumbnail: /assets/img/posts/coscientist/system-overview.png
 ---
 
 <div class="paper-header">

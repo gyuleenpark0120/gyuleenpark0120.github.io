@@ -5,7 +5,7 @@ date: 2025-07-22
 description: 30 years of battery research explored ~700 electrolyte chemicals. The molecular universe contains ~10^60. SES AI built a 121-million-molecule DFT database and a battery-domain LLM to start closing that gap.
 tags: [battery, electrolyte, molecular-discovery, AI-for-science, DFT, LLM]
 categories: ai-for-science
-thumbnail: /assets/img/posts/hannah2025/molecular-universe.png
+# thumbnail: /assets/img/posts/hannah2025/molecular-universe.png
 ---
 
 <div class="paper-header">

@@ -5,7 +5,7 @@ date: 2025-08-05
 description: Using only the first 100 cycles of voltage data, ML predicted final battery lifetime (150–2,300 cycles) with 9.1% test error — months before visible capacity fade.
 tags: [battery, machine-learning, lifetime-prediction, electrochemistry, LFP]
 categories: materials-ml
-thumbnail: /assets/img/posts/severson/prediction-vs-actual.png
+# thumbnail: /assets/img/posts/severson/prediction-vs-actual.png
 ---
 
 <div class="paper-header">

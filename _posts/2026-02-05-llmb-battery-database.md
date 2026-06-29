@@ -2,10 +2,10 @@
 layout: post
 title: "LLMB: From Battery Papers to ML-Ready Databases"
 date: 2025-09-30
-description: An LLM agent extracted 8,074 cells worth of battery data from Li-MB literature: including figures, at 96.4% accuracy, then connected it directly to ML capacity prediction.
+description: "An LLM agent extracted 8,074 cells worth of battery data from Li-MB literature: including figures, at 96.4% accuracy, then connected it directly to ML capacity prediction."
 tags: [battery, LLM, text-mining, database, machine-learning, electrolyte]
 categories: materials-ml
-thumbnail: /assets/img/posts/llmb/pipeline-overview.png
+# thumbnail: /assets/img/posts/llmb/pipeline-overview.png
 ---
 
 <div class="paper-header">

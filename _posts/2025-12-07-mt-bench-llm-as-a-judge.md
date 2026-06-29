@@ -5,7 +5,7 @@ date: 2025-12-07
 description: Formalized the LLM-as-a-Judge paradigm for evaluating open-ended responses, showing over 85% agreement with human expert judgments.
 tags: [evaluation, LLM-as-a-judge, benchmark]
 categories: evaluation
-thumbnail: /assets/img/posts/mt-bench/judge-comparison.png
+# thumbnail: /assets/img/posts/mt-bench/judge-comparison.png
 ---
 
 <div class="paper-header">

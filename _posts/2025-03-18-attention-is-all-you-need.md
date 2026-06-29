@@ -5,7 +5,7 @@ date: 2025-03-18
 description: Proposed the Transformer architecture using only attention — no RNNs — setting a new SOTA in machine translation and becoming the structural foundation for every modern LLM.
 tags: [transformer, attention, NLP, deep-learning]
 categories: foundations
-thumbnail: /assets/img/posts/attention/architecture.png
+# thumbnail: /assets/img/posts/attention/architecture.png
 ---
 
 <div class="paper-header">
