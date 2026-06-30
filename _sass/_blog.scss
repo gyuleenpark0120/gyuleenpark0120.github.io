@@ -2,6 +2,11 @@
  * Blog post and listing styles
  ******************************************************************************/
 
+/* Temporarily disabled until images are ready — remove this block to re-enable */
+.paper-figure {
+  display: none;
+}
+
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
   text-align: left;
