@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-07-27'
 papers:
   EdR-hecAAAAJ:2osOgNQ5qMEC:
-    citations: 470
+    citations: 479
     title: "Lithium\u2010metal batteries: from fundamental research to industrialization"
     year: '2023'
   EdR-hecAAAAJ:9yKSN-GCB0IC:
-    citations: 79
+    citations: 80
     title: 'Strategy for stable interface in lithium metal batteries: free solvent derived vs anion derived'
     year: '2022'
   EdR-hecAAAAJ:IjCSPb-OGe4C:
@@ -14,11 +14,11 @@ papers:
     title: Selective Fluoride Removal with reduced Graphene Oxide/Hydroxyapatite Composite Electrode in Electric Field Assisted System
     year: '2020'
   EdR-hecAAAAJ:UeHWp8X0CEIC:
-    citations: 10
+    citations: 11
     title: "Understanding and Strategies for High Energy Density Lithium\u2010Ion/Lithium Metal Hybrid Batteries"
     year: '2024'
   EdR-hecAAAAJ:d1gkVwhDpl0C:
-    citations: 142
+    citations: 144
     title: Exploiting the steric effect and low dielectric constant of 1, 2-dimethoxypropane for 4.3 V lithium metal batteries
     year: '2022'
   EdR-hecAAAAJ:qjMakFHDy7sC:
@@ -26,10 +26,10 @@ papers:
     title: Anti-corrosive electrolyte design for extending the calendar life of lithium metal batteries
     year: '2024'
   EdR-hecAAAAJ:u-x6o8ySG0sC:
-    citations: 84
+    citations: 85
     title: Selective fluoride removal in capacitive deionization by reduced graphene oxide/hydroxyapatite composite electrode
     year: '2021'
   EdR-hecAAAAJ:zYLM7Y9cAGgC:
-    citations: 7
+    citations: 8
     title: Searching for Ideal Electrolytes in the Molecular Universe
     year: '2025'
