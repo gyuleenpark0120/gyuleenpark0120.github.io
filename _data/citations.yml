@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-07-27'
+  last_updated: '2026-08-03'
 papers:
   EdR-hecAAAAJ:2osOgNQ5qMEC:
-    citations: 479
+    citations: 482
     title: "Lithium\u2010metal batteries: from fundamental research to industrialization"
     year: '2023'
   EdR-hecAAAAJ:9yKSN-GCB0IC:
@@ -18,11 +18,11 @@ papers:
     title: "Understanding and Strategies for High Energy Density Lithium\u2010Ion/Lithium Metal Hybrid Batteries"
     year: '2024'
   EdR-hecAAAAJ:d1gkVwhDpl0C:
-    citations: 144
+    citations: 146
     title: Exploiting the steric effect and low dielectric constant of 1, 2-dimethoxypropane for 4.3 V lithium metal batteries
     year: '2022'
   EdR-hecAAAAJ:qjMakFHDy7sC:
-    citations: 46
+    citations: 48
     title: Anti-corrosive electrolyte design for extending the calendar life of lithium metal batteries
     year: '2024'
   EdR-hecAAAAJ:u-x6o8ySG0sC:
@@ -31,5 +31,5 @@ papers:
     year: '2021'
   EdR-hecAAAAJ:zYLM7Y9cAGgC:
     citations: 8
-    title: Searching for Ideal Electrolytes in the Molecular Universe
+    title: Searching for ideal electrolytes in the molecular universe
     year: '2025'
