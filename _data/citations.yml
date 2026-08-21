@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-08-14'
+  last_updated: '2026-08-21'
 papers:
   EdR-hecAAAAJ:2osOgNQ5qMEC:
-    citations: 487
+    citations: 489
     title: "Lithium\u2010metal batteries: from fundamental research to industrialization"
     year: '2023'
   EdR-hecAAAAJ:9yKSN-GCB0IC:
-    citations: 82
+    citations: 83
     title: 'Strategy for stable interface in lithium metal batteries: free solvent derived vs anion derived'
     year: '2022'
   EdR-hecAAAAJ:IjCSPb-OGe4C:
@@ -20,7 +20,7 @@ papers:
   EdR-hecAAAAJ:d1gkVwhDpl0C:
     citations: 146
     title: Exploiting the steric effect and low dielectric constant of 1, 2-dimethoxypropane for 4.3 V lithium metal batteries
-    year: '2022'
+    year: '2023'
   EdR-hecAAAAJ:qjMakFHDy7sC:
     citations: 51
     title: Anti-corrosive electrolyte design for extending the calendar life of lithium metal batteries
